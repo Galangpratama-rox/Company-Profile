@@ -76,3 +76,62 @@ body {
 .profile-image img {
   border-radius: 9px;
 }
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(1, 75, 125);
+  padding-top: 30px;
+  height: 70vh;
+}
+
+.contact::after {
+  content: "";
+  position: absolute;
+  right: 330px;
+  top: 193vh;
+  width: 400px;
+  height: 400px;
+  background: url("/assets/image/profil\ 1.jpg") center/cover no-repeat;
+}
+
+.contact-container {
+  background-color: rgb(204, 190, 190);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  height: 210px;
+  width: 400px;
+  display: flex;
+  padding-right: 30px;
+  justify-content: center;
+  margin-right: 300px;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-container button {
+  width: 170px;
+  height: 50px;
+}
+
+.contact-text {
+  width: 250px;
+}
+
+.contact-text h2 {
+  font-family: "poppins", sans-serif;
+}
+
+.contact-text p {
+  font-family: "poppins", sans-serif;
+}
+
+.contat-image {
+  position: relative;
+}
+
+.contact-text button {
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+}

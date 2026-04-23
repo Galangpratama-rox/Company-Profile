@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: fixed;
+  background-color: rgb(1, 75, 125);
+  height: 13vh;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 5%;
+}
+
+.icon img {
+  border-radius: 20px;
+}
+.icon section {
+  margin: 10px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.list-container {
+  width: 25%;
+}
+
+.list-container ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.list-container ul li a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}
+
+.navbar-button button {
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  border-inline: none;
+  outline: none;
+  color: white;
+  box-shadow: none;
+  margin: 5px;
+}
+
+.button-login {
+  width: 80px;
+  background: rgb(223, 193, 60);
+}
+
+.button-try {
+  background: rgba(35, 113, 221, 0.786);
+  width: 130px;
+}

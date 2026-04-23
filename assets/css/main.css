@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap");
+
+.hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(1, 75, 125);
+  padding-top: 13vh;
+  height: 55vh;
+  padding-bottom: 20vh;
+}
+
+.judul {
+  color: white;
+  width: 35%;
+}
+
+.judul h1 {
+  font-size: 50px;
+}
+
+.judul p {
+  color: white;
+}
+
+.button-main {
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 200px;
+  background: rgba(35, 113, 221, 0.786);
+  color: white;
+}
+
+.porto-client h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.porto-client {
+  height: 80vh;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20vh;
+}
+.porto-client h2 {
+  font-size: 40px;
+  color: black;
+}
+
+.image-client img {
+  width: 200px;
+  height: 200px;
+  margin: 40px;
+  border-radius: 6px;
+}

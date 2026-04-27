@@ -2,15 +2,28 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  /* background: linear-gradient(to right, #0d2040, #1a3a6e); */
+  background: linear-gradient(135deg, #000000 0%, #0d2040 60%, #000510 100%);
 }
 .hero-text {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(1, 75, 125);
-  padding-top: 13vh;
-  height: 55vh;
+  /* background: linear-gradient(to right, #0a0f1e, #0d2040); */
+  /* background: linear-gradient(to left, #000000 0%, #0d2040 60%, #000510 100%); */
+  padding-top: 14vh;
+  height: 70 vh;
   padding-bottom: 20vh;
+  gap: 60px;
+}
+
+.main-image {
+  padding-top: 70px;
+}
+
+.main-image img {
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 .judul {
@@ -31,69 +44,63 @@ body {
   border-radius: 5px;
   height: 50px;
   width: 200px;
-  background: rgba(35, 113, 221, 0.786);
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #7b2fff);
   color: white;
 }
 
 .profil {
-  margin: 80px;
+  height: 70vh;
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 100px;
+  /* background: linear-gradient(135deg, #000000 0%, #0d2040 60%, #000510 100%); */
 }
 
-.profil-text {
-  width: 40%;
+.section-profil {
+  display: flex;
+  height: 45vh;
+  justify-content: center;
+  width: 80%;
+  gap: 50px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.button-deploy {
+  width: 150px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background: transparent;
+  border: 1.5px solid #00c6ff;
+  color: #00c6ff;
+}
+
+.profil {
 }
 
 .profil-text h1 {
-  font-family: "Poppins", sans-serif;
-}
-
-.profil-text h2 {
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  color: white;
+  font-size: 40px;
+  font-family: "plus jakarta sans", sans-serif;
 }
 
 .profil-text p {
-  font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  color: white;
+  font-size: 16px;
+  font-family: "poppins", sans-serif;
 }
 
 .profile-image {
-  border-radius: 9px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  height: 500px;
-  width: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.profile-image img {
-  border-radius: 9px;
 }
 
 .contact {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(1, 75, 125);
+  background: linear-gradient(to right, #0d2040, #1a3a6e);
+  /* background-color: rgb(1, 75, 125); */
   padding-top: 30px;
   height: 70vh;
-}
-
-.contact::after {
-  content: "";
-  position: absolute;
-  right: 330px;
-  top: 193vh;
-  width: 400px;
-  height: 400px;
-  background: url("/assets/image/profil\ 1.jpg") center/cover no-repeat;
 }
 
 .contact-container {
@@ -134,4 +141,54 @@ body {
   border: none;
   border-radius: 8px;
   background-color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.contact-text button:hover {
+  background-color: rgb(220, 220, 220);
+}
+
+.card-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.section-card {
+}
+
+.card {
+  background-color: purple;
+  padding: 10px;
+  background-color: #0a0f1e;
+  border: 2px solid #0072ff;
+  height: 50vh;
+  border-radius: 9px;
+  width: 34vb;
+}
+
+.desc {
+  color: #6a8caa;
+}
+
+.harga {
+  color: #ffffff;
+}
+
+.type-price {
+  color: #a0c4e8;
+}
+
+.button-card {
+  width: 20vb;
+  height: 40px;
+}
+.judul-card {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }

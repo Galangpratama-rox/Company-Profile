@@ -5,7 +5,7 @@ body {
 
 .header {
   position: fixed;
-  background-color: rgb(1, 75, 125);
+  background-color: rgb(15, 15, 16);
   height: 13vh;
   width: 100%;
 }
@@ -62,6 +62,6 @@ body {
 }
 
 .button-try {
-  background: rgba(35, 113, 221, 0.786);
+  background: rgba(129, 125, 125, 0.786);
   width: 130px;
 }

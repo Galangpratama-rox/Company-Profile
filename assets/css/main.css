@@ -45,13 +45,15 @@ body {
   border: none;
   border-radius: 5px;
   height: 50px;
+  margin-top: 30px;
   width: 200px;
   background: linear-gradient(90deg, #00c6ff, #0072ff, #7b2fff);
   color: white;
 }
 
 .profil {
-  height: 70vh;
+  margin-top: 25px;
+  height: 60vh;
   display: flex;
   justify-content: center;
   /* background: linear-gradient(135deg, #000000 0%, #0d2040 60%, #000510 100%); */
@@ -70,6 +72,7 @@ body {
   width: 150px;
   height: 45px;
   border-radius: 10px;
+  margin-top: 20px;
   border: none;
   color: white;
   background: transparent;
@@ -77,14 +80,10 @@ body {
   color: #00c6ff;
 }
 
-.profil {
-  /* background-color: white; */
-}
-
 .profil-text h1 {
   color: white;
   font-size: 40px;
-  font-family: "plus jakarta sans", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .profil-text p {
@@ -96,6 +95,7 @@ body {
 .profile-image {
   background-color: #059c74;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 120vh;
   border-radius: 10px;
 }
 
@@ -108,7 +108,7 @@ body {
 
 .card {
   background-color: purple;
-  padding: 10px;
+  padding: 20px;
   background-color: #0a0f1e;
   border: 2px solid #0072ff;
   height: 50vh;
@@ -118,20 +118,36 @@ body {
 
 .desc {
   color: #6a8caa;
+  font-size: 13px;
 }
 
 .harga {
   color: #ffffff;
+  font-size: 25px;
 }
 
 .type-price {
   color: #a0c4e8;
 }
 
-.button-card {
-  width: 20vb;
-  height: 40px;
+.text-card {
+  color: #8AB4D4;
 }
+
+.button-card {
+  width: 30vb;
+  height: 40px;
+  border: 0.8px solid white;
+  border-radius: 10px;
+  color: white;
+  margin-top: 30px;
+  background-color: transparent;
+}
+
+.section-card {;
+  height: 70vh;
+}
+
 .judul-card {
   color: white;
   display: flex;
@@ -140,31 +156,38 @@ body {
   align-items: center;
 }
 
+.judul-card h3{
+  color: #0072FF
+}
+
+.judul-card h2{
+  font-size: 27px;
+  margin-bottom: 30px;
+}
+
 .list {
   border: none;
   border-top: 0.5px solid #1a3a6e;
   margin: 16px 0;
 }
 
-.testimoni {
+.container-testimoni {
+  height: 70vh;
+  background-color:rgb(50, 50, 53);
+  display: flex;
+  justify-content: center;
+}
+
+.judul-testimoni {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
   background-color: blue;
 }
 
-.Judul-testimoni {
-  display: flex;
-  justify-content: center;
-}
-
-.review-testimoni {
-  /* display: flex;
-  align-items: center;
-  flex-direction: column; */
-}
-
-.container-testimoni {
-  height: 70vh;
-  display: flex;
-  background-color: white;
-  display: flex;
-  justify-content: center;
+.judul-testimoni h3 {
+  color: #00c6ff;
 }

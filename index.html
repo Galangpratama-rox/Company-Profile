@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Company Profile</title>
-    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
       rel="stylesheet"
@@ -22,13 +22,14 @@
     <!-- Navbar Container -->
     <header class="header">
       <nav class="navbar">
-        <div class="p-2 rounded-lg">
+        <div class="icon">
           <img
             src="/assets/image/logo.png"
             alt="Logo perusahaan"
             width="60px"
             height="60px"
           />
+          <section>MLS Movie</section>
         </div>
         <div class="list-container">
           <ul>
@@ -55,7 +56,7 @@
             scale, monitor, and manage your applications with ease.
           </p>
           <button class="button-main" id="button-latihan">
-            Try MLS Movie free
+            Buy trial VPS now
           </button>
         </div>
 
@@ -97,24 +98,26 @@
       <section class="section-card">
         <div class="judul-card">
           <h3>PILIH PAKET ANDA</h3>
-          <h2>Harga Transparan, Performa Nyata</h2>
+          <h2 >Harga Transparan, Performa Nyata</h2>
         </div>
         <div class="card-price">
           <!-- Card Pertama -->
           <div class="card">
             <div class="type-price">
-              <h3 class="text-card">Starter</h3>
+              <h3 class="">Starter</h3>
             </div>
             <h2 class="harga">Rp 49.000/bln</h2>
             <div class="desc">Cocok untuk project kecil & personal</div>
             <hr class="list" />
-            <ul>
+            <ul class="text-card">
               <li>1 vCPU</li>
               <li>1 GB RAM</li>
               <li>20 GB NVMe</li>
               <li>Bandwith 1 TB</li>
             </ul>
+            <div class="flex justify-center">
             <button class="button-card">Deploy Sekarang</button>
+            </div>
           </div>
           <div class="card">
             <div class="type-price">
@@ -123,13 +126,15 @@
             <h2 class="harga">Rp 49.000/bln</h2>
             <div class="desc">Cocok untuk project kecil & personal</div>
             <hr class="list" />
-            <ul>
+            <ul class="text-card">
               <li>1 vCPU</li>
               <li>1 GB RAM</li>
               <li>20 GB NVMe</li>
               <li>Bandwith 1 TB</li>
             </ul>
+            <div class="flex justify-center">
             <button class="button-card">Deploy Sekarang</button>
+            </div>
           </div>
           <div class="card">
             <div class="type-price">
@@ -138,28 +143,32 @@
             <h2 class="harga">Rp 49.000/bln</h2>
             <div class="desc">Cocok untuk project kecil & personal</div>
             <hr class="list" />
-            <ul>
+            <ul class="text-card">
               <li>1 vCPU</li>
               <li>1 GB RAM</li>
               <li>20 GB NVMe</li>
               <li>Bandwith 1 TB</li>
             </ul>
+            <div class="flex justify-center">
             <button class="button-card">Deploy Sekarang</button>
+            </div>
           </div>
         </div>
       </section>
 
       <section class="container-testimoni">
-        <div class="testimoni">
-          <div class="Judul-testimoni">
+        <div>
+        <div class="judul-testimoni">
+          <div >
             <h3>TESTIMONI</h3>
           </div>
-          <div class="review-testimoni">
-            <h2>Apa kata pengguna kami</h2>
+          <div class="flex justify-center">
+            <h2 class="">Apa kata pengguna kami</h2>
           </div>
-          <div>
+          <div class="flex justify-center">
             <p>Dipercaya oleh ribuan bisnis seluruh indonesia</p>
-          </div>
+            </div>
+        </div>
         </div>
       </section>
     </main>

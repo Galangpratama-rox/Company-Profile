@@ -6,9 +6,6 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-blue-600: oklch(54.6% 0.245 262.881);
-    --spacing: 0.25rem;
-    --radius-lg: 0.5rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -162,14 +159,11 @@
   }
 }
 @layer utilities {
-  .end {
-    inset-inline-end: var(--spacing);
+  .flex {
+    display: flex;
   }
-  .rounded-lg {
-    border-radius: var(--radius-lg);
-  }
-  .p-2 {
-    padding: calc(var(--spacing) * 2);
+  .justify-center {
+    justify-content: center;
   }
 }
 body {
@@ -266,12 +260,14 @@ body {
   border: none;
   border-radius: 5px;
   height: 50px;
+  margin-top: 30px;
   width: 200px;
   background: linear-gradient(90deg, #00c6ff, #0072ff, #7b2fff);
   color: white;
 }
 .profil {
-  height: 70vh;
+  margin-top: 25px;
+  height: 60vh;
   display: flex;
   justify-content: center;
 }
@@ -287,6 +283,7 @@ body {
   width: 150px;
   height: 45px;
   border-radius: 10px;
+  margin-top: 20px;
   border: none;
   color: white;
   background: transparent;
@@ -296,7 +293,7 @@ body {
 .profil-text h1 {
   color: white;
   font-size: 40px;
-  font-family: "plus jakarta sans", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 .profil-text p {
   color: white;
@@ -306,6 +303,7 @@ body {
 .profile-image {
   background-color: #059c74;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 120vh;
   border-radius: 10px;
 }
 .card-price {
@@ -316,7 +314,7 @@ body {
 }
 .card {
   background-color: purple;
-  padding: 10px;
+  padding: 20px;
   background-color: #0a0f1e;
   border: 2px solid #0072ff;
   height: 50vh;
@@ -325,16 +323,29 @@ body {
 }
 .desc {
   color: #6a8caa;
+  font-size: 13px;
 }
 .harga {
   color: #ffffff;
+  font-size: 25px;
 }
 .type-price {
   color: #a0c4e8;
 }
+.text-card {
+  color: #8AB4D4;
+}
 .button-card {
-  width: 20vb;
+  width: 30vb;
   height: 40px;
+  border: 0.8px solid white;
+  border-radius: 10px;
+  color: white;
+  margin-top: 30px;
+  background-color: transparent;
+}
+.section-card {
+  height: 70vh;
 }
 .judul-card {
   color: white;
@@ -343,21 +354,33 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.judul-card h3 {
+  color: #0072FF;
+}
+.judul-card h2 {
+  font-size: 27px;
+  margin-bottom: 30px;
+}
 .list {
   border: none;
   border-top: 0.5px solid #1a3a6e;
   margin: 16px 0;
 }
-.testimoni {
-  background-color: blue;
-}
-.Judul-testimoni {
-  display: flex;
-  justify-content: center;
-}
 .container-testimoni {
   height: 70vh;
-  background-color: white;
+  background-color: rgb(50, 50, 53);
   display: flex;
   justify-content: center;
+}
+.judul-testimoni {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  background-color: blue;
+}
+.judul-testimoni h3 {
+  color: #00c6ff;
 }

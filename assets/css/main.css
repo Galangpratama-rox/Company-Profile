@@ -1,3 +1,5 @@
+@import "tailwindcss";
+@import "./navbar.css";
 @import url("https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap");
 
 body {
@@ -76,6 +78,7 @@ body {
 }
 
 .profil {
+  /* background-color: white; */
 }
 
 .profil-text h1 {
@@ -91,62 +94,9 @@ body {
 }
 
 .profile-image {
-}
-
-.contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(to right, #0d2040, #1a3a6e);
-  /* background-color: rgb(1, 75, 125); */
-  padding-top: 30px;
-  height: 70vh;
-}
-
-.contact-container {
-  background-color: rgb(204, 190, 190);
+  background-color: #059c74;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  height: 210px;
-  width: 400px;
-  display: flex;
-  padding-right: 30px;
-  justify-content: center;
-  margin-right: 300px;
-  position: relative;
-  z-index: 1;
-}
-
-.contact-container button {
-  width: 170px;
-  height: 50px;
-}
-
-.contact-text {
-  width: 250px;
-}
-
-.contact-text h2 {
-  font-family: "poppins", sans-serif;
-}
-
-.contact-text p {
-  font-family: "poppins", sans-serif;
-}
-
-.contat-image {
-  position: relative;
-}
-
-.contact-text button {
-  border: none;
-  border-radius: 8px;
-  background-color: white;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-
-.contact-text button:hover {
-  background-color: rgb(220, 220, 220);
+  border-radius: 10px;
 }
 
 .card-price {
@@ -154,9 +104,6 @@ body {
   justify-content: center;
   align-items: center;
   gap: 20px;
-}
-
-.section-card {
 }
 
 .card {
@@ -191,4 +138,33 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+.list {
+  border: none;
+  border-top: 0.5px solid #1a3a6e;
+  margin: 16px 0;
+}
+
+.testimoni {
+  background-color: blue;
+}
+
+.Judul-testimoni {
+  display: flex;
+  justify-content: center;
+}
+
+.review-testimoni {
+  /* display: flex;
+  align-items: center;
+  flex-direction: column; */
+}
+
+.container-testimoni {
+  height: 70vh;
+  display: flex;
+  background-color: white;
+  display: flex;
+  justify-content: center;
 }

@@ -5,9 +5,11 @@ body {
 
 .header {
   position: fixed;
-  background-color: rgb(15, 15, 16);
+  background-color: rgb(0, 0, 0);
   height: 13vh;
   width: 100%;
+  border: none;
+  border-bottom: 3px solid #1a3a6e;
 }
 
 .navbar {

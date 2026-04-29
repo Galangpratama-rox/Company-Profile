@@ -144,7 +144,7 @@ body {
   background-color: transparent;
 }
 
-.section-card {;
+.section-card {
   height: 70vh;
 }
 
@@ -171,23 +171,55 @@ body {
   margin: 16px 0;
 }
 
+.section-test {
+  width: 90%;
+}
+
 .container-testimoni {
+  margin-top: 100px;
   height: 70vh;
-  background-color:rgb(50, 50, 53);
   display: flex;
   justify-content: center;
 }
 
 .judul-testimoni {
-  height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   color: white;
-  background-color: blue;
 }
 
 .judul-testimoni h3 {
   color: #00c6ff;
 }
+
+.container-test{
+  height: 50vh;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.card-ulasan{
+  margin-top: 30px;
+  border: 0.7px solid #0072FF;
+  background-color: #0a0f1e;
+  height: 40vh;
+  width: 40vb;
+  padding: 20px;
+}
+
+.image-conten {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.username {
+  background-color: transparent;
+  margin-left: 10px;
+}
+
+@import "./responsive.css";

@@ -131,7 +131,7 @@ body {
 }
 
 .text-card {
-  color: #8AB4D4;
+  color: #8ab4d4;
 }
 
 .button-card {
@@ -156,11 +156,11 @@ body {
   align-items: center;
 }
 
-.judul-card h3{
-  color: #0072FF
+.judul-card h3 {
+  color: #0072ff;
 }
 
-.judul-card h2{
+.judul-card h2 {
   font-size: 27px;
   margin-bottom: 30px;
 }
@@ -194,16 +194,16 @@ body {
   color: #00c6ff;
 }
 
-.container-test{
+.container-test {
   height: 50vh;
   display: flex;
   gap: 40px;
   justify-content: center;
 }
 
-.card-ulasan{
+.card-ulasan {
   margin-top: 30px;
-  border: 0.7px solid #0072FF;
+  border: 0.7px solid #0072ff;
   background-color: #0a0f1e;
   height: 40vh;
   width: 40vb;
@@ -220,6 +220,22 @@ body {
 .username {
   background-color: transparent;
   margin-left: 10px;
+}
+
+.footer {
+  background-color: black;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-footer {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
 }
 
 @import "./responsive.css";

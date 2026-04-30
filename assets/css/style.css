@@ -162,6 +162,9 @@
   }
 }
 @layer utilities {
+  .m-8 {
+    margin: calc(var(--spacing) * 8);
+  }
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
   }
@@ -173,6 +176,9 @@
   }
   .justify-center {
     justify-content: center;
+  }
+  .gap-12 {
+    gap: calc(var(--spacing) * 12);
   }
   .text-white {
     color: var(--color-white);
@@ -234,11 +240,11 @@ body {
 }
 .button-login {
   width: 80px;
-  background: rgb(223, 193, 60);
+  background: rgb(7, 74, 207);
 }
 .button-try {
   background: rgba(129, 125, 125, 0.786);
-  width: 130px;
+  width: 100px;
 }
 @import url("https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap");
 body {
@@ -348,7 +354,7 @@ body {
   color: #a0c4e8;
 }
 .text-card {
-  color: #8AB4D4;
+  color: #8ab4d4;
 }
 .button-card {
   width: 30vb;
@@ -370,7 +376,7 @@ body {
   align-items: center;
 }
 .judul-card h3 {
-  color: #0072FF;
+  color: #0072ff;
 }
 .judul-card h2 {
   font-size: 27px;
@@ -408,7 +414,7 @@ body {
 }
 .card-ulasan {
   margin-top: 30px;
-  border: 0.7px solid #0072FF;
+  border: 0.7px solid #0072ff;
   background-color: #0a0f1e;
   height: 40vh;
   width: 40vb;
@@ -423,6 +429,20 @@ body {
 .username {
   background-color: transparent;
   margin-left: 10px;
+}
+.footer {
+  background-color: black;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-footer {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
 }
 @media screen and (max-width: 1024px) {
   .header {

@@ -60,10 +60,10 @@ body {
 
 .button-login {
   width: 80px;
-  background: rgb(223, 193, 60);
+  background: rgb(7, 74, 207);
 }
 
 .button-try {
   background: rgba(129, 125, 125, 0.786);
-  width: 130px;
+  width: 100px;
 }
